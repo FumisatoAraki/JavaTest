@@ -5,7 +5,7 @@ public class Main {
 		final long c=22181920;//暗号文
 		//String cTest=String.valueOf(c);
 		//System.out.println(cTest.length());
-		String C=String.valueOf(String.format("%08d", c));//8ってところイケてない
+		String C=String.valueOf(String.format("%08d", c));
 		System.out.println("暗号"+C);//変換できているか確認
 		//System.out.println("文字数"+C.length()/2);//桁数の確認
 		String result[]=new String[C.length()/2];//2文字ごとに分けるために配列を作る
